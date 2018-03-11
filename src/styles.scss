@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@for $i from 0 through 6 {
+    .space-top-#{$i}x {
+        margin-top: 10px* $i;
+    }
+}
+@for $i from 0 through 6 {
+    .space-bottom-#{$i}x {
+        margin-bottom: 10px* $i;
+    }
+}
+@for $i from 0 through 6 {
+    .padding-right-#{$i}x {
+        padding-right: 10px* $i;
+    }
+}
+@for $i from 0 through 6 {
+    .padding-left-#{$i}x {
+        padding-left: 10px* $i;
+    }
+}

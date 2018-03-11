@@ -1,0 +1,9 @@
+.avatar{
+    cursor: pointer;
+    &--text{
+    font-size: 1.5rem ;
+    border-radius: 50%;
+    background-color: #dcd4d4;
+    margin-left: 1%;
+  }
+}

@@ -1,0 +1,6 @@
+
+<select class="custom-select custom-select-lg mb-3"
+[(ngModel)]="selectedValue"
+*ngIf="status">
+    <option *ngFor="let c of selectOption" [value]="c" (click)="setValue(c)">{{c}}</option>
+</select>
