@@ -1,9 +1,12 @@
 .avatar{
     cursor: pointer;
     &--text{
-    font-size: 1.5rem ;
+    font-size: 3rem ;
     border-radius: 50%;
     background-color: #dcd4d4;
     margin-left: 1%;
+  &.active{
+    background-color: red;
   }
+}
 }

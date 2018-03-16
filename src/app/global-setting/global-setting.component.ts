@@ -9,14 +9,28 @@ export class GlobalSettingComponent implements OnInit {
   public avatarValues;
   constructor() {
     this.avatarValues = [
-      "S",
-      "M",
-      "T",
-      "W",
-      "T",
-      "F",
-      "S",
-    ];
+      { 'id': '1',
+        'value': 'S'
+    },
+    { 'id': '2',
+        'value': 'M'
+    },
+    { 'id': '3',
+        'value': 'T'
+    },
+    { 'id': '4',
+        'value': 'W'
+    },
+    { 'id': '5',
+        'value': 'T'
+    },
+    { 'id': '6',
+        'value': 'F'
+    },
+    { 'id': '7',
+        'value': 'S'
+    }
+  ];
    }
 
   ngOnInit() {

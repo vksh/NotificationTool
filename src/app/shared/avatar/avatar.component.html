@@ -1,1 +1,2 @@
-<span *ngFor="let value of avatarValues" class="label avatar--text"> {{value}}</span>
+<span *ngFor="let data of avatarValues" class="badge avatar--text"
+    [ngClass]="{active: activeClass && activeClass.has(data.id)}" (click)="setSelected(data)"> {{data.value}}</span>
